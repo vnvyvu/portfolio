@@ -10,7 +10,7 @@ import { LabelWithIcon } from '../_components/label-with-icon';
 
 export default async function Header() {
 	return (
-		<footer className='bg-sky-900 p-8 gap-8 flex'>
+		<header className='bg-sky-900 p-8 gap-8 flex'>
 			<div className='flex flex-wrap'>
 				<h1 className='font-semibold text-4xl basis-full'>VU CHI VY</h1>
 				<h2 className='font-semibold text-lg basis-full'>
@@ -40,6 +40,6 @@ export default async function Header() {
 			<div className='min-w-32 max-w-32 min-h-32 max-h-32 overflow-clip rounded-md mt-5 ml-auto'>
 				<Image src={avatar} className='-mt-5' alt='avatar' />
 			</div>
-		</footer>
+		</header>
 	);
 }
