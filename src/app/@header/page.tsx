@@ -37,7 +37,7 @@ export default async function Header() {
 					className='text-sm basis-1/2'
 				/>
 			</div>
-			<div className='min-w-32 max-w-32 min-h-32 max-h-32 overflow-clip rounded-md mt-5'>
+			<div className='min-w-32 max-w-32 min-h-32 max-h-32 overflow-clip rounded-md mt-5 ml-auto'>
 				<Image src={avatar} className='-mt-5' alt='avatar' />
 			</div>
 		</footer>
