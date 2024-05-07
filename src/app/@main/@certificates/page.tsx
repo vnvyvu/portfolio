@@ -9,9 +9,9 @@ export default function Certificates() {
 				<LabelWithIcon
 					icon={
 						<MdLanguage
-							size={21}
+							size={20}
 							color='#283665'
-							className='mr-1 self-start'
+							className='min-w-6 self-start mt-2'
 						/>
 					}
 					label={
@@ -22,20 +22,20 @@ export default function Certificates() {
 							<br />
 							<LabelWithIcon
 								className='gap-0.5'
-								icon={<MdCalendarMonth size={13} />}
+								icon={<MdCalendarMonth size={16} />}
 								label='10/2023'
 							/>
 							<br />
-							<span>600</span>
+							<span>Reached 600</span>
 						</>
 					}
 				/>
 				<LabelWithIcon
 					icon={
 						<MdSchool
-							size={24}
+							size={20}
 							color='#283665'
-							className='mr-1 self-start'
+							className='min-w-6 self-start mt-2'
 						/>
 					}
 					label={
@@ -46,7 +46,7 @@ export default function Certificates() {
 							<br />
 							<LabelWithIcon
 								className='gap-0.5'
-								icon={<MdCalendarMonth size={13} />}
+								icon={<MdCalendarMonth size={16} />}
 								label='03/2017 - 09/2022'
 							/>
 							<br />
