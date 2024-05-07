@@ -22,7 +22,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<div className='bg-[#dcdbe0] px-28 py-8'>
+				<div className='bg-[#dcdbe0]'>
 					{header}
 					{main}
 					{footer}
