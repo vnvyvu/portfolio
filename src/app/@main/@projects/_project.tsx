@@ -25,18 +25,13 @@ export function Project({
 		<div
 			className={twMerge('flex flex-col gap-2', divider ? 'divider' : '')}
 		>
-			<h2 className='text-base text-[#493f3f]'>{projectName}</h2>
+			<h2 className='text-2xl text-[#493f3f]'>{projectName}</h2>
 			<div className='flex gap-16 mb-2 -mt-1 text-[#61636b]'>
 				<LabelWithIcon
 					icon={<MdCalendarMonth size={16} />}
 					label={date}
-					className='text-xs'
 				/>
-				<LabelWithIcon
-					icon={<MdWork size={16} />}
-					label={company}
-					className='text-xs'
-				/>
+				<LabelWithIcon icon={<MdWork size={16} />} label={company} />
 			</div>
 			<div>
 				<span className='font-semibold'>Role: </span>
