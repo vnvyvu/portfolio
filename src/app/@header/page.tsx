@@ -11,9 +11,9 @@ import { LabelWithIcon } from '../_components/label-with-icon';
 export default async function Header() {
 	return (
 		<header className='bg-sky-900 p-8 gap-8 flex text-base'>
-			<div className='flex flex-wrap'>
-				<h1 className='font-semibold text-7xl basis-full'>VU CHI VY</h1>
-				<h2 className='font-semibold text-3xl basis-full'>
+			<div className='flex flex-wrap text-sm'>
+				<h1 className='font-semibold text-4xl basis-full'>VU CHI VY</h1>
+				<h2 className='font-semibold text-lg basis-full'>
 					Web Developer
 				</h2>
 				<LabelWithIcon

@@ -5,18 +5,18 @@ import { MdCalendarMonth, MdLanguage, MdSchool } from 'react-icons/md';
 export default function Certificates() {
 	return (
 		<Section title='Certificates'>
-			<div className='flex flex-col gap-1 mt-1 text-base'>
+			<div className='flex flex-col gap-1 mt-1'>
 				<LabelWithIcon
 					icon={
 						<MdLanguage
-							size={34}
+							size={21}
 							color='#283665'
 							className='mr-1 self-start'
 						/>
 					}
 					label={
 						<>
-							<span className='text-lg font-semibold'>
+							<span className='text-sm font-semibold'>
 								IIG TOEIC 2 SKILLS
 							</span>
 							<br />
@@ -33,14 +33,14 @@ export default function Certificates() {
 				<LabelWithIcon
 					icon={
 						<MdSchool
-							size={36}
+							size={24}
 							color='#283665'
 							className='mr-1 self-start'
 						/>
 					}
 					label={
 						<>
-							<span className='text-lg font-semibold'>
+							<span className='text-sm font-semibold'>
 								Bachelor of Information Security
 							</span>
 							<br />
