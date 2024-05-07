@@ -22,9 +22,7 @@ export function Project({
 	divider = true,
 }: ProjectProps) {
 	return (
-		<div
-			className={twMerge('flex flex-col gap-2', divider ? 'divider' : '')}
-		>
+		<div className={twMerge('flex flex-col', divider ? 'divider' : '')}>
 			<h2 className='text-lg text-[#493f3f]'>{projectName}</h2>
 			<div className='flex gap-16 mb-2 -mt-1 text-[#61636b]'>
 				<LabelWithIcon
