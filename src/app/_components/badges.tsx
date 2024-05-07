@@ -17,7 +17,7 @@ export function Badges({
 				divider ? 'divider' : '',
 			)}
 		>
-			<span className='text-sm text-[#5a6182]'>{title}</span>
+			<span className='text-xl text-[#5a6182]'>{title}</span>
 			<div className='flex flex-wrap gap-2'>
 				{badges.map(badge => (
 					<span
