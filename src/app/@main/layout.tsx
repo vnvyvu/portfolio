@@ -10,7 +10,7 @@ export default async function MainLayout({
 	certificates: React.ReactNode;
 }) {
 	return (
-		<main className='flex px-8 py-4 bg-white text-black gap-4 shadow-md'>
+		<main className='flex max-md:flex-col px-8 py-4 bg-white text-black gap-4 shadow-md'>
 			<div className='flex flex-col basis-3/4 gap-4'>
 				{summary}
 				{projects}
