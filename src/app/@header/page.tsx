@@ -23,7 +23,7 @@ export default async function Header() {
 				/>
 				<LabelWithIcon
 					icon={<SiLinkedin size={24} className='min-w-7' />}
-					label='https://www.linkedin.com/in/vy-vu-761bab274/'
+					label='https://www.linkedin.com/in/vyvu99/'
 					className='basis-1/2'
 				/>
 				<LabelWithIcon
