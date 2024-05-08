@@ -1,4 +1,7 @@
-export default async function MainLayout({
+'use client';
+import { useMediaQuery } from '@/lib/useMediaQuery';
+
+export default function MainLayout({
 	summary,
 	projects,
 	skills,
@@ -9,14 +12,15 @@ export default async function MainLayout({
 	skills: React.ReactNode;
 	certificates: React.ReactNode;
 }) {
+	const isMobile = useMediaQuery();
 	return (
 		<main className='flex max-md:flex-col px-8 py-4 bg-white text-black gap-4 shadow-md'>
 			<div className='flex flex-col basis-3/4 gap-4'>
 				{summary}
-				{projects}
+				{isMobile ? skills : projects}
 			</div>
 			<div className='flex flex-col basis-1/4 gap-4'>
-				{skills}
+				{isMobile ? projects : skills}
 				{certificates}
 			</div>
 		</main>
