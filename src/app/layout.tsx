@@ -22,10 +22,19 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<div className='bg-[#dcdbe0]'>
+				<div className='bg-[#dcdbe0] overflow-clip'>
 					{header}
 					{main}
 					{footer}
+					{/* <video
+						className='absolute right-0 top-64'
+						width={100}
+						autoPlay
+						muted
+						loop
+						playsInline
+						src='/mew.webm'
+					/> */}
 				</div>
 			</body>
 		</html>
