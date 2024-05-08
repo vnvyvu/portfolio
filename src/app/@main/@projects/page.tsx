@@ -88,17 +88,6 @@ export default async function Projects() {
 					'Proficient in basic usage of AWS Lambda and AWS S3',
 				]}
 			/>
-			<Project
-				projectName='Refunds Management System'
-				date='2024'
-				company='Pionero'
-				role='Developer'
-				technologies='Kintone, GoogleAppScript'
-				achievements={[
-					'Automate data updating from Google Form to Kintone',
-				]}
-				divider={false}
-			/>
 		</Section>
 	);
 }

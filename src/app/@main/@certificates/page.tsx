@@ -17,7 +17,7 @@ export default function Certificates() {
 					label={
 						<>
 							<span className='text-sm font-semibold'>
-								IIG TOEIC 2 SKILLS
+								IIG TOEIC LISTENING AND READING SKILLS
 							</span>
 							<br />
 							<LabelWithIcon
