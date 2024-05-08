@@ -38,7 +38,6 @@ export default async function Skills() {
 						'VPC',
 						'EC2',
 						'ELB',
-						'RDS',
 						'IAM',
 						'CloudFront',
 						'CloudWatch',
